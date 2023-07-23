@@ -10,7 +10,7 @@ const config: GatsbyConfig = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
     siteTitle: `Vova's Blog`,
     siteTitleAlt: `Vova's Blog`,
-    siteHeadline: `Vova's Blog -- thoughts about software engineering`,
+    siteHeadline: `Thoughts about software engineering`,
     siteUrl: `https://artsiukhou.github.io/`,
     siteDescription: `Vova's Blog -- thoughts about software engineering`,
     // siteImage: `/banner.jpg`,
@@ -60,7 +60,7 @@ const config: GatsbyConfig = {
       options: {
         name: `Vova's Blog`,
         short_name: `Vova's Blog`,
-        description: `Vova's Blog -- thoughts about software engineering`,
+        description: `Thoughts about software engineering`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
