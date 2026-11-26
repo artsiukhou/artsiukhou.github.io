@@ -1,5 +1,6 @@
 ---
 title: "Complexity Matters?"
+slug: "complexity-matters"
 date: 2021-05-06
 tags: [programming, thoughts, complexity]
 ---
