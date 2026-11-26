@@ -1,5 +1,6 @@
 ---
 title: "Refactoring with Modern(-ish) C++: Method Detection"
+slug: "refactoring-with-modern-ish-c-method-detection"
 date: 2021-04-10
 tags: [C++, refactoring, templates]
 ---

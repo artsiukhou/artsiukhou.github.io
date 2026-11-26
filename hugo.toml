@@ -1,0 +1,50 @@
+baseURL = "https://artsiukhou.github.io/"
+languageCode = "en-US"
+title = "Vova's Blog"
+author = "Vova"
+copyright = "© Vova Artsiukhou"
+theme = "hugo-bearblog"
+enableRobotsTXT = true
+
+[permalinks]
+  blog = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+
+# Keep the RSS feed at /rss.xml, where the old Gatsby site served it.
+[outputFormats.RSS]
+  baseName = "rss"
+
+[params]
+  description = "Thoughts about software engineering"
+  favicon = "favicon-32x32.png"
+  title = "Vova's Blog"
+  dateFormat = "2006-01-02"
+  hideMadeWithLine = true
+  enablePostNavigator = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/artsiukhou"
+    weight = 10
+  [[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/vladimir-artyukhov/"
+    weight = 11
+
+[markup]
+  [markup.highlight]
+    # Colors come from assets/css/syntax.css (light + dark variants).
+    noClasses = false
+    codeFences = true
+    lineNos = false

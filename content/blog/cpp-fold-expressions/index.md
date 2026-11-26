@@ -1,5 +1,6 @@
 ---
 title: "Modern C++: Variadic Templates and Fold Expressions"
+slug: "modern-c-variadic-templates-and-fold-expressions"
 date: 2021-05-12
 tags: [C++, templates]
 ---
